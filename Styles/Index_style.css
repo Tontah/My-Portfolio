@@ -1,9 +1,19 @@
+html {
+    margin:0;
+    padding:0;
+}
 body {
     color: white;
     background-color: darkgrey;
-    padding-left: 11em;
+    padding-left:11em;
     font-family: Georgia, "Times New Roman",
     Times, serif;
+}
+body {
+    background-image: url('../Pictures/20190218_154015.jpg') ;
+    background-position: top right;
+    background-repeat:no-repeat;
+    background-size: 400px 400px;
 }
 .topnav {
     overflow: hidden;
@@ -19,10 +29,10 @@ body {
     font-size: 17px;
 }
 
-/*.topnav a:hover {
+.topnav a:hover {
     background-color: #ddd;
     color: black;
-}*/
+}
 
 .topnav a.active {
     background-color: #04AA6D;
