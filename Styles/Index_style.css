@@ -5,7 +5,7 @@ html {
 body {
     color: white;
     background-color: darkgrey;
-    padding-left:11em;
+    /*padding-left:11em;*/
     font-family: Georgia, "Times New Roman",
     Times, serif;
 }
@@ -13,11 +13,11 @@ body {
     background-image: url('../Pictures/20190218_154015.jpg') ;
     background-position: top right;
     background-repeat:no-repeat;
-    background-size: 400px 400px;
+    background-size: 350px 350px;
 }
 .topnav {
     overflow: hidden;
-    background-color:#a9a9a9;
+    margin-left: 11em;
 }
 
 .topnav a {
@@ -38,4 +38,7 @@ body {
     background-color: #04AA6D;
     color: white;
 }
-
+.skills {
+    overflow: hidden;
+    background-color: black;
+}
