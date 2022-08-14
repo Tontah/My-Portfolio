@@ -8,16 +8,20 @@ body {
     /*padding-left:11em;*/
     font-family: Georgia, "Times New Roman",
     Times, serif;
+    margin: 0px;
 }
 body {
     background-image: url('../Pictures/20190218_154015.jpg') ;
     background-position: top right;
     background-repeat:no-repeat;
-    background-size: 350px 350px;
+    background-size: 370px 370px;
+    background-attachment: fixed;
 }
 .topnav {
     overflow: hidden;
-    margin-left: 11em;
+    margin-left: 11em;/*pushes the navbar 11em to the left*/;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
 }
 
 .topnav a {
@@ -38,7 +42,16 @@ body {
     background-color: #04AA6D;
     color: white;
 }
+.welcomepage{
+    margin-top: 8em;
+    margin-left: 11em;
+
+}
 .skills {
     overflow: hidden;
     background-color: black;
+    margin: 68px 0px 0px 0px;
+}
+.logoclass{
+    margin: 0px;
 }
