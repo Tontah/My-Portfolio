@@ -25,9 +25,10 @@ body {
     top: 0; /* Position the navbar at the top of the page */
     display: flex;
     justify-content:space-between;
+    /*margin-right: 7em;*/
 
 }
-.logoclass{
+.Mylogoclass{
     margin-right:340px;
 }
 .topnav a {
@@ -44,7 +45,8 @@ body {
     background-color: cadetblue;
     color: black;
 }
-.contacts{margin-left: 340px;
+.contacts{
+    margin-left: 340px;
     margin-right:7em;
 }
 .contacts a {
@@ -67,6 +69,8 @@ body {
 .welcomepage{
     margin-top: 8em;
     margin-left: 7em;
+    margin-right: 7em;
+
 
 }
 .skills {
@@ -74,11 +78,24 @@ body {
     background-color: black;
     margin: 68px 0px 0px 0px;
 }
-.skills1 {
+.skillslogo{
+    margin-left: 7em;
+    margin-right: 7em;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Whatican_Logo{
+    display: flex;
+    flex: 1;
+
+}
+/*.skills1 {
     overflow: hidden;
     background-color: black;
     margin: 600px 0px 0px 0px;
-}
+}*/
 .About_Me{
     margin-left: 7em;
     margin-right: 25em;
