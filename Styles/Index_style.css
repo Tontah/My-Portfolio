@@ -5,99 +5,88 @@ html {
 body {
     color: white;
     background-color: darkgrey;
-    /*padding-left:11em;*/
     font-family: Georgia, "Times New Roman",
     Times, serif;
-    margin: 0px;
+    margin: 0;
 }
 body {
-    background-image: url('../Pictures/20190218_154015.jpg') ;
+    background-image: url('../Pictures/profile-picture.jpeg') ;
     background-position: top right;
     background-repeat:no-repeat;
-    background-size: 370px 370px;
-    background-attachment: fixed;
+    background-size: 300px 390px;
+    background-attachment: scroll;
 }
 .navbar
 {
-    overflow: hidden;
-    margin-left: 7em;/*pushes the navbar 7em to the left*/;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 7em;
+    padding-right: 7em;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    display: flex;
-    justify-content:space-between;
-    /*margin-right: 7em;*/
+    max-width: 100%;
+    font-size: 17px;
+    margin: auto;
 
 }
-.Mylogoclass{
-    margin-right:340px;
-}
-.topnav a {
+
+.navbarcenter a {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
     float: left;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 18px;
     text-decoration: none;
-    font-size: 17px;
     background-color: darkgrey;
 }
 
-.topnav a:hover {
+.navbarcenter a:hover {
     background-color: cadetblue;
     color: black;
 }
-.contacts{
-    margin-left: 340px;
-    margin-right:7em;
-}
-.contacts a {
+
+
+.navbarrightside a {
     float: right;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    padding: 14px 18px;/* setting the topand bottom paddings respectively*/
+
 }
-.contacts a:hover {
+.navbarrightside a:hover {
     background-color: cadetblue;
     color: black;
 }
 
-    /*.topnav a.active {
-        background-color: #04AA6D;
-        color: white;
-    }*/
 .welcomepage{
+    padding-left: 7em;
+    padding-right: 7em;
     margin-top: 8em;
-    margin-left: 7em;
-    margin-right: 7em;
-
-
 }
 .skills {
+    padding-left: 7em;
+    padding-right: 7em;
     overflow: hidden;
     background-color: black;
-    margin: 68px 0px 0px 0px;
+
 }
-.skillslogo{
-    margin-left: 7em;
-    margin-right: 7em;
+.skillslogo {
+    justify-content: space-between;
     flex-direction: row;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 }
 .Whatican_Logo{
-    display: flex;
-    flex: 1;
 
 }
-/*.skills1 {
-    overflow: hidden;
-    background-color: black;
-    margin: 600px 0px 0px 0px;
-}*/
+
 .About_Me{
-    margin-left: 7em;
+
     margin-right: 25em;
 }
 
